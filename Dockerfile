@@ -10,4 +10,4 @@ COPY ./coturn* ./
 
 EXPOSE 3478
 
-CMD ["/bin/bash", "-c", "./coturn.sh"]
+CMD ["bash", "coturn.sh"]
